@@ -9,7 +9,7 @@ public class MondayCounter {
         PeriodWeekdayCounter periodMondayCounter = new PeriodWeekdayCounter(
                 new MonthWeekday(Year.of(1901), Month.JANUARY),
                 new MonthWeekday(Year.of(2000), Month.DECEMBER),
-                Weekday.MONDAY
+                Weekday.SUNDAY
                 );
 
         System.out.println(periodMondayCounter.getCountWeekday());
