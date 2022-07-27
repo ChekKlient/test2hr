@@ -40,7 +40,7 @@
                     </execution>
                     </executions>
                     <configuration>
-                        <mainClass>com.my.test2hr.MondayCounter</mainClass>
+                        <mainClass>com.my.test2hr.SundayCounter</mainClass>
                     </configuration>
                 </plugin>
             <plugin>
